@@ -1,0 +1,100 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Ivan Urgant",
+      "phone": "+79651284597",
+      "image": "https://st03.kakprosto.ru/images/article/2019/6/20/106096_5d0b0bd2015cb5d0b0bd201609.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Dmitry Nagiyev",
+      "phone": "+79805478935",
+      "image": "https://biografii.net/wp-content/uploads/2018/12/1442831684-dmitrij-nagiev.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Jason Statham ",
+      "phone": "+79056248567",
+      "image": "https://static.tumblr.com/482d8f464e8c67d3e3ef4b99f3b27282/zdazzsb/xkfnxhxey/tumblr_static_filename_2048_v2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Emma Watson",
+      "phone": "+79647112781",
+      "image": "http://almode.ru/uploads/posts/2021-02/1612677856_8-p-emma-uotson-15.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Nastya Kamenskykh",
+      "phone": "+79478526578",
+      "image": "http://almode.ru/uploads/posts/2021-03/1617026761_24-p-nastya-kamenskikh-28.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Carter",
+      "phone": "+73275217485",
+      "image": "https://i3.imageban.ru/out/2018/05/14/2f8942bcbadab8483d583ddceb3eab40.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Ivan Urgant",
+      "phone": "+79651284597",
+      "image": "https://st03.kakprosto.ru/images/article/2019/6/20/106096_5d0b0bd2015cb5d0b0bd201609.jpeg"
+    },
+    {
+      "name": "asf",
+      "number": "",
+      "phone": "asf",
+      "id": 8
+    },
+    {
+      "name": "asf",
+      "number": "",
+      "phone": "afs",
+      "id": 9
+    },
+    {
+      "name": "ewc",
+      "phone": "ev",
+      "id": 10
+    },
+    {
+      "name": "waeg",
+      "phone": "13214",
+      "id": 11
+    },
+    {
+      "name": "234",
+      "phone": "2323",
+      "id": 12
+    },
+    {
+      "name": "wef",
+      "phone": "w234",
+      "id": 13
+    },
+    {
+      "name": "wef",
+      "phone": "w234",
+      "id": 14
+    },
+    {
+      "name": "weg",
+      "phone": "weg",
+      "id": 15
+    },
+    {
+      "name": "asdg",
+      "phone": "asdg",
+      "id": 18
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "12345"
+    }
+  ]
+}
