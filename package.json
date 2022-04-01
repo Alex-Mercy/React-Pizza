@@ -1,0 +1,39 @@
+{
+  "name": "react-pizza",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "classnames": "^2.3.1",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.8.1",
+    "react": "16.8.6",
+    "react-content-loader": "^6.2.0",
+    "react-dom": "16.8.6",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1"
+  },
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "npx json-server --watch public/db.json --port=3001"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
