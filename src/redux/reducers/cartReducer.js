@@ -5,14 +5,14 @@ const initialState = {
     totalCount: 0
 };
 
-const getTotalPrice = arr = arr.reduce((sum, obj) => obj.price + sum, 0);
+const getTotalPrice = arr => arr.reduce((sum, obj) => obj.price + sum, 0);
 
 const cartReducer = (state = initialState, action) => {
     switch (action.type) {
         case "ADD_PIZZA_CART":
         const currentPizzasItems = !state.items[action.payload.id].items
         ? [action.payload]
-        : [...state.items[action.payload.id], action.payload];
+        : [...state.items[action.payload.id].items, action.payload];
 
 
             const newItems = {

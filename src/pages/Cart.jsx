@@ -35,7 +35,7 @@ function Cart() {
           <div className="content__items">
 
           {addedPizzas.map(obj => {
-            return <CartItem name={obj.name} type={obj.type} size={obj.size} />
+            return <CartItem name={obj.name} type={obj.type} size={obj.size} totalPrice={items[obj.id].totalPrice} />
           })}
            
 
