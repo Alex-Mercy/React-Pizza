@@ -40,6 +40,26 @@ const cartReducer = (state = initialState, action) => {
                 totalCount: 0
             };
 
+            case 'PLUS_CART_ITEM': {
+                const newObjItems = [...state.items[action.payload].items, 
+                state.items[action.payload].items[0],
+            ];
+            
+            const newItems = {
+                ...state.items,
+                [action.payload]: {
+                    items: newObjItems,
+                    totalPrice: getTotalPrice(newObjItems),
+                }
+            };
+            return {
+                ...state,
+                items: newItems,
+                totalPrice: getTotalPrice(newItems),
+                totalCount: newItems[action.payload].items.length
+            };
+        }
+
             case 'REMOVE_CART_ITEM': {
                 const newItems ={
                     ...state.items,
