@@ -3,8 +3,7 @@ export const addPizzaToCart = (pizzaObj) => ({
     payload: pizzaObj,
 });
 
-export const setTotalCount = (totalCount) => ({
-    type: 'SET_TOTAL_COUNT',
-    payload: totalCount,
+export const clearCart = () => ({
+    type: 'CLEAR_CART',
 });
 
